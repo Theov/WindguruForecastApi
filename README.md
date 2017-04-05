@@ -18,6 +18,7 @@ The request while return a collection of json objects like this one:
         "swellPeriod":13.5,
         "windSpeed":13.3,
         "windDir":355,
+        "windGustSpeed":13.3,
         "temp":14.8,
         "initTimeStamp":1491393600,
         "sunsetTimeStamp":1491417240,
@@ -31,5 +32,5 @@ The request while return a collection of json objects like this one:
 $ git clone https://github.com/Theov/WindguruForecastApi.git
 $ cd WindguruForecastApi
 $ mvn clean package
-$ java -jar java -jar target/WindguruForecastApi-0.0.1.jar
+$ java -jar target/WindguruForecastApi-0.0.1.jar
 ```
