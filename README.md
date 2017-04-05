@@ -1,5 +1,5 @@
 # Windguru unoficial scrapping API
-
+[![N|Solid](https://travis-ci.org/Theov/InstaGiftWinner.svg?branch=master)](https://travis-ci.org/Theov/InstaGiftWinner.svg?branch=master)
 This app is a marine weather REST API based on windguru.cz website data.
 Powered by Java 8 and Springboot.
 
