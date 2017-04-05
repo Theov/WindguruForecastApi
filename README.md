@@ -28,8 +28,8 @@ The request while return a collection of json objects like this one:
 ```
 # package and launch API
 ```sh
-$ git clone
-$ cd dir
+$ git clone https://github.com/Theov/WindguruForecastApi.git
+$ cd WindguruForecastApi
 $ mvn clean package
-$ java -jar /targert/app.jar
+$ java -jar java -jar target/WindguruForecastApi-0.0.1.jar
 ```
