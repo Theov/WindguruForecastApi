@@ -3,11 +3,15 @@
 This app is a marine weather REST API based on windguru.cz website data.
 Powered by Java 8 and Springboot.
 
+# Try me
+
+Try me on: https://windguruforecastapi.herokuapp.com/forecast/spot/231
+
 # How it works ?
 Launch the app and make simple HTTP GET request like:
 ```sh
 $ curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X
-                GET http://hostname/forecast/spot/231/{YourSpotId}
+                GET http://hostname/forecast/spot/{YourSpotId}
 ```
 The request while return a collection of json objects like this one:
 ```json

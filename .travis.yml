@@ -1,0 +1,13 @@
+language: java
+jdk: oraclejdk8
+
+install: true
+script: ./mvnw clean install
+cache:
+  directories:
+  - $HOME/.m2
+
+deploy:
+  provider: heroku
+  api_key: 9c8630a6-5002-4077-bfe2-859a7df27aaa
+app: windguruforecastapi

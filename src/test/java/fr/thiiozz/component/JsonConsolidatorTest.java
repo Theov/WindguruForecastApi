@@ -34,6 +34,6 @@ public class JsonConsolidatorTest {
 
     @Test
     public void canConsolidateData(){
-        assertTrue(jsonConsolidator.consolidateData().names().length() == 11);
+        assertTrue(jsonConsolidator.consolidateData().names().length() == 12);
     }
 }
